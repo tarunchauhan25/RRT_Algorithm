@@ -35,10 +35,6 @@ def main():
             flip_display()
             create_ob = 0
 
-        # if display_ob == 1:
-        #     flip_display()
-        #     display_ob = 0
-
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
